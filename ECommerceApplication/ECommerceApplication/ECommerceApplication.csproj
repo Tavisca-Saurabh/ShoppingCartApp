@@ -44,6 +44,8 @@
   <ItemGroup>
     <Compile Include="AllProducts.cs" />
     <Compile Include="Cart.cs" />
+    <Compile Include="ICartOperation.cs" />
+    <Compile Include="IPaymentOperation.cs" />
     <Compile Include="PaymentMethod.cs" />
     <Compile Include="Product.cs" />
     <Compile Include="Program.cs" />

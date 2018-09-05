@@ -15,11 +15,7 @@ namespace ECommerceApplication
         }
         public void DisplayAllProducts(List<Product> AllProductsObject)
         {
-            AllProductsObject.ForEach(item => Console.WriteLine("ID: " + item.ProductId + " Name: " + item.ProductName + " Price: " + item.ProductPrice));
-        }
-        public void UpdateQuantity(int id, List<Product> AllProductsObject)
-        {
-            //Update Quantity
+            AllProductsObject.ForEach(item => Console.WriteLine("ID: " + item.ProductId + " Name: " + item.ProductName + " Price: " + item.ProductPrice + "Quantity: "+ item.Quantity));
         }
     }
 }

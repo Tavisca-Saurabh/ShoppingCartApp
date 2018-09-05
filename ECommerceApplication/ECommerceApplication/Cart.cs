@@ -6,23 +6,25 @@ using System.Threading.Tasks;
 
 namespace ECommerceApplication
 {
-    class Cart
+    class Cart: ICartOperation
     {
-        public void Add(List<Product> AllProductsObject, int id , List<Product> CartData, int Quantity) //Product Added to Cart
+        public void Add(List<Product> AllProductsObject, int id , List<Product> CartData, int currentQuantity) //Product Added to Cart
         {
-            if (AllProductsObject[id].Quantity >= Quantity)
+            if (AllProductsObject[id].Quantity >= currentQuantity)
             {
                 CartData.Add(AllProductsObject[id]);
-                AllProducts product = new AllProducts();
-                product.UpdateQuantity(id, AllProductsObject);
                 Console.WriteLine("Product Added Successfully");
+            }
+            else
+            {
+                Console.WriteLine("Quantity is Larger than available");
             }
         }
         public void DisplayCart(List<Product> CartData)
         {
             if (CartData.Count > 0)
             {
-                CartData.ForEach(item => Console.WriteLine("ID: " + item.ProductId + " Name: " + item.ProductName + " Price: " + item.ProductPrice));
+                CartData.ForEach(item => Console.WriteLine("ID: " + item.ProductId + " Name: " + item.ProductName + " Price: " + item.ProductPrice + "Quantity: " + item.Quantity));
             }
             else
             {

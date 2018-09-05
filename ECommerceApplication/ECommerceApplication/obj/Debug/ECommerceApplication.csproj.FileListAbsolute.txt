@@ -12,3 +12,10 @@ C:\Users\smanchanda\Downloads\ECommerceApplication\ECommerceApplication\obj\Debu
 C:\Users\smanchanda\Downloads\ECommerceApplication\ECommerceApplication\obj\Debug\ECommerceApplication.csproj.CoreCompileInputs.cache
 C:\Users\smanchanda\Downloads\ECommerceApplication\ECommerceApplication\obj\Debug\ECommerceApplication.exe
 C:\Users\smanchanda\Downloads\ECommerceApplication\ECommerceApplication\obj\Debug\ECommerceApplication.pdb
+C:\Users\smanchanda\Downloads\Shooping Cart App GitHub\ShoppingCartApp\ECommerceApplication\ECommerceApplication\bin\Debug\ECommerceApplication.exe.config
+C:\Users\smanchanda\Downloads\Shooping Cart App GitHub\ShoppingCartApp\ECommerceApplication\ECommerceApplication\bin\Debug\ECommerceApplication.exe
+C:\Users\smanchanda\Downloads\Shooping Cart App GitHub\ShoppingCartApp\ECommerceApplication\ECommerceApplication\bin\Debug\ECommerceApplication.pdb
+C:\Users\smanchanda\Downloads\Shooping Cart App GitHub\ShoppingCartApp\ECommerceApplication\ECommerceApplication\obj\Debug\ECommerceApplication.csprojAssemblyReference.cache
+C:\Users\smanchanda\Downloads\Shooping Cart App GitHub\ShoppingCartApp\ECommerceApplication\ECommerceApplication\obj\Debug\ECommerceApplication.csproj.CoreCompileInputs.cache
+C:\Users\smanchanda\Downloads\Shooping Cart App GitHub\ShoppingCartApp\ECommerceApplication\ECommerceApplication\obj\Debug\ECommerceApplication.exe
+C:\Users\smanchanda\Downloads\Shooping Cart App GitHub\ShoppingCartApp\ECommerceApplication\ECommerceApplication\obj\Debug\ECommerceApplication.pdb

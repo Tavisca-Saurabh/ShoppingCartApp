@@ -23,8 +23,9 @@ namespace ECommerceApplication
                                 "\n2) Show Cart" +
                                 "\n3) Remove Particular Item in Cart" +
                                 "\n4) Total Amount of Cart" +
-                                "\n5) Clear Cart" +
-                                "\n6) Exit");
+                                "\n5) Checkout" +
+                                "\n6) Clear Cart" +
+                                "\n7) Exit");
                 int Option = Convert.ToInt32(Console.ReadLine());
                 switch (Option)
                 {
@@ -68,11 +69,28 @@ namespace ECommerceApplication
                     case 5:
                         {
                             Console.Clear();
-                            obj.ClearCart(CartData);
+                            PaymentMethod pay = new PaymentMethod();
+                            Console.WriteLine("Select Payment Mode \n1) Cash \n2) Online");
+                            int mode = Convert.ToInt32(Console.ReadLine());
+                            if(mode == 1)
+                            {
+                                pay.Cash();
+                            }
+                            else if(mode == 2)
+                            {
+                                pay.Online();
+                            }
                             Console.WriteLine();
                             break;
                         }
                     case 6:
+                        {
+                            Console.Clear();
+                            obj.ClearCart(CartData);
+                            Console.WriteLine();
+                            break;
+                        }
+                    case 7:
                         {
                             Environment.Exit(0);
                             break;

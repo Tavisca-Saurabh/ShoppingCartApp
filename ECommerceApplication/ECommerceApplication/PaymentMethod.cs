@@ -6,9 +6,15 @@ using System.Threading.Tasks;
 
 namespace ECommerceApplication
 {
-    class PaymentMethod
+    class PaymentMethod : IPaymentOperation
     {
-        public int Cash { get; set; }
-        public int Online { get; set; }
+        public void Cash()
+        {
+            Console.WriteLine("Order Successfull Using Cash");
+        }
+        public void Online()
+        {
+            Console.WriteLine("Order Successfull Using Online Transaction");
+        }
     }
 }
